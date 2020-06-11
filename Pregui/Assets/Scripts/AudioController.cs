@@ -9,6 +9,12 @@ public class AudioController : MonoBehaviour
   public AudioSource pickupFlower;
   public AudioSource flowerBorn;
   public AudioSource grunt;
+  public AudioSource musicMarimba;
+  public AudioSource musicPad;
+  public AudioSource musicBass;
+  public AudioSource musHouse;
+  public AudioSource sfxForest;
+
 
   private void Awake()
   {
@@ -41,5 +47,34 @@ public class AudioController : MonoBehaviour
   {
     grunt.Play();
   }
+
+  public void PlayMusMarimba()
+  {
+    musicMarimba.Play();
+  }
+
+  public void PlayMusPad()
+  {
+    musicPad.Play();
+  }
+
+  public void PlayMusBass()
+  {
+    musicBass.Play();
+  }
+
+  public void PlayMusHouse()
+  {
+    musHouse.Play();
+  }
+
+  public void PlaySfxForest()
+  {
+    sfxForest.Play();
+  }
+  
+
+
+
 
 }
